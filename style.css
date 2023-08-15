@@ -5,6 +5,7 @@ body {
   height: 100vh;
   color: rgb(0, 0, 0);
   background-image: url("cod.jpg");
+  background-position: center;
   background-size: cover;
   font-family: 'Arial' sans-serif; 
 }
@@ -115,7 +116,7 @@ body {
     padding: 50px;
     text-align: center;
     font: normal 30pt Arial;
-    width: 100%;
+    width: 100vh;
     
   }
 
@@ -127,7 +128,7 @@ body {
   }
 
   footer {
-    width: 100%;
+    width: 100vh;
     position: absolute;
     bottom: 0;
     text-align: center;
