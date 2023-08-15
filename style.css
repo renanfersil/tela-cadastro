@@ -4,42 +4,61 @@ body {
   justify-content: center;
   height: 100vh;
   color: rgb(0, 0, 0);
-  background-image: url("../Imagens/mapa.jpg");
+  background-image: url("cod.jpg");
   background-size: cover;
   font-family: 'Arial' sans-serif; 
 }
 
-.container {
+.container1 {
   display: flex;
-  width: 40vh;
-  height: 78vh;
+  height: 66%;
+  width: 28%;
   justify-content: center;
-  margin: 6vh;
+  margin: 4vh;
   align-items: center;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.2);
   background-size: cover;
   transition: all 0.2s ease;
-  font-family: 'arial', sans-serif;
+}
+
+.container1:hover {
+  width: 29%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: -20px 15px 2px rgba(0, 0, 0, 0.9);
+}
+
+.container2 {
+  display: flex;
+  height: 66%;
+  width: 28%;
+  justify-content: center;
+  margin: 4vh;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.2);
+  background-size: cover;
+  transition: all 0.2s ease;
   }
 
-  .container:hover {
-    width: 48vh;
-    height: 82vh;
+  .container2:hover {
+    width: 29%;
     background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 40px 20px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 20px 15px 2px rgba(0, 0, 0, 0.9);
   }
 
   input {
   width: 280px;
   height: 26px;
+  margin: 3px;
   background-color: transparent;
   text-align: center;
   align-items: center;
-  box-sizing: border-box;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   border-radius: 8px;
   }
 
@@ -48,11 +67,6 @@ body {
     border-color: rgb(0, 0, 0);
     background-color: rgb(200, 200, 200, 0.315);
   }
-  
-input[type="checkbox"] {
-  margin-top: 25px;
-  width: 10px;
-}
 
   ::placeholder {
     color: black;
@@ -61,17 +75,22 @@ input[type="checkbox"] {
   fieldset {
     width: 300px;
     padding: 10px;
-    border: 50vh;
+    border: 1px;
     text-align: left;
     align-items: center;
     box-sizing: border-box;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     border-radius: 10px;
+    margin: 40px;
+  }
+
+  hr {
+
+   border: 1px solid #000000;
   }
 
   button {
-    width: 38%;
-    padding: 5px 15px;
+    padding: 10px 40px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -79,16 +98,40 @@ input[type="checkbox"] {
     border-style: double;
     cursor: pointer;
     transition: all 0.2s ease;
-    margin-top: 10px;
+    margin-bottom: 10px;
     background: cover;
   }
   
   button:hover {
-    width: 40%;
     color: black;
     background-color: transparent;
   }
 
-  hr {
-    color: black;
+  header {
+    position: absolute;
+    top: 0;
+    padding: 50px;
+    text-align: center;
+    font: normal 30pt Arial;
+    width: 100%;
+    
+  }
+
+  section {
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+    text-align: center;
+  }
+
+  footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-style: italic;
+  }
+
+  legend {
+    font-style: italic;
   }
