@@ -86,7 +86,6 @@ body {
   }
 
   hr {
-
    border: 1px solid #000000;
   }
 
@@ -115,7 +114,7 @@ body {
     top: 0;
     padding: 50px;
     text-align: center;
-    font: normal 30pt Arial;
+    font: normal 12pt Arial;
     width: 100vh;
     
   }
