@@ -112,11 +112,10 @@ body {
   header {
     position: absolute;
     top: 0;
-    padding: 50px;
+    padding: 10px 70px;
     text-align: center;
-    font: normal 12pt Arial;
+    font: normal 20pt Arial;
     width: 100vh;
-    
   }
 
   section {
@@ -134,6 +133,11 @@ body {
     font-style: italic;
   }
 
+  label {
+    font-weight: bold;
+  }
+
   legend {
     font-style: italic;
+    font-weight: bold;
   }
